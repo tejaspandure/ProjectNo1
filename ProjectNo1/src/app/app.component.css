@@ -1,0 +1,87 @@
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px; /* Adjust the width as needed */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Head
+{
+  float:left;
+  width:100%;
+  padding-right:30px
+}
+.Contact{
+    text-align: center;
+    color: pink;
+}
+
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    border-radius: 1000px;
+  }
+  
+  section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  
+
+  .image{
+    float:center;
+    width: 150px;
+  }
+
+  .container {
+    display: flex; /* make the container a flex container */
+    justify-content: center; /* center the flex items along the main axis */
+    align-items: center; /* center the flex items along the cross axis */
+    height: 100vh; /* set the container height to the viewport height */
+  }
+  
+  .form {
+  width: 50%;
+  border: 1px solid #ccc; /* Add border with 1px width and color #ccc */
+  padding: 20px; /* Add padding to give some space between content and border */
+}
+
